@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open("E://Models//Bankruptcy_model.pkl", "rb") as file:
+with open("Bankruptcy_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Bankruptcy Prevention")
@@ -57,4 +57,5 @@ with tab1:
     plt.xticks(rotation = 45)
     st.pyplot(fig)
     st.write('Positive coefficient → pushes toward Non-Bankruptcy')
+
     st.write('Negative coefficient → pushes toward Bankruptcy')
