@@ -27,4 +27,4 @@ Python • Pandas • NumPy • Scikit-learn • Matplotlib • Seaborn
 ## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
-python bankrupty_prediction.py
+python Bankrupty_Prediction.py
