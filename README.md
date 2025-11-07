@@ -1,4 +1,13 @@
-# 💰 Financial Risk Prediction using Logistic Regression
+# 🧠 Bankruptcy Prediction App
+
+This Streamlit app predicts whether a company is likely to go **bankrupt** or remain **financially stable** based on multiple financial indicators.  
+It helps analysts and investors identify early warning signs of financial distress.
+
+👉 **Try it here:** [Open Streamlit App](https://aakashchaudhari-bankruptcy-prediction.streamlit.app)
+
+---
+
+# 💰 Bankruptcy Prediction using Logistic Regression
 
 This project predicts the likelihood of bankruptcy or financial distress based on company risk factors, enabling better financial decision-making and early risk detection.
 
