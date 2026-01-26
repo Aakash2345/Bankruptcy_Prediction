@@ -3,5 +3,6 @@ pandas
 matplotlib
 seaborn
 scikit-learn==1.6.1
+altair==4.2.0
 scipy
 streamlit
