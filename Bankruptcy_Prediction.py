@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 with open("Bankruptcy_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-st.title("Bankruptcy Prevention")
+st.title("Bankruptcy Prediction")
 
 # Define value options for each column
 risk_values = [0.0, 0.5, 1.0]
@@ -59,3 +59,4 @@ with tab1:
     st.write('Positive coefficient → pushes toward Non-Bankruptcy')
 
     st.write('Negative coefficient → pushes toward Bankruptcy')
+
